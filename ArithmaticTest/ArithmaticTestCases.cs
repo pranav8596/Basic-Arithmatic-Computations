@@ -42,5 +42,15 @@ namespace ArithmaticTest
             Assert.AreEqual(8, mulResult);
         }
 
+        [Test]
+        public void givenTwoIntegers_WhenDivided_ShouldReturnItsResult()
+        {
+            int numberOne = 4;
+            int numberTwo = 2;
+            int divResult = arithmatic.division(numberOne, numberTwo);
+            Assert.AreEqual(2, divResult);
+        }
+
+
     }
 }
