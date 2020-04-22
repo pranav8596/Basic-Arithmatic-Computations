@@ -15,5 +15,10 @@ namespace ArithmaticOperations
         {
             return numberOne - numberTwo;
         }
+
+        public int multiplication(int numberOne, int numberTwo)
+        {
+            return numberOne * numberTwo;
+        }
     }
 }

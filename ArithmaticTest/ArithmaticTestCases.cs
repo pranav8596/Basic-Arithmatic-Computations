@@ -31,5 +31,16 @@ namespace ArithmaticTest
             int subResult = arithmatic.subtraction(numberOne, numberTwo);
             Assert.AreEqual(2, subResult);
         }
+
+        //Test case for multiplication of two integers
+        [Test]
+        public void givenTwoIntegers_WhenMultiplied_ShouldReturnItsResult()
+        {
+            int numberOne = 4;
+            int numberTwo = 2;
+            int mulResult = arithmatic.multiplication(numberOne, numberTwo);
+            Assert.AreEqual(8, mulResult);
+        }
+
     }
 }
