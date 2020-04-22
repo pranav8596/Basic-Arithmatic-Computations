@@ -6,7 +6,7 @@ namespace ArithmaticOperations
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Basic Arithmatic operations");
         }
     }
 }

@@ -10,5 +10,10 @@ namespace ArithmaticOperations
         {
             return numberOne + numberTwo;
         }
+
+        public int subtraction(int numberOne, int numberTwo)
+        {
+            return numberOne - numberTwo;
+        }
     }
 }

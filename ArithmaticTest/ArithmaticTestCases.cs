@@ -10,14 +10,26 @@ namespace ArithmaticTest
         {
         }
 
+        ArithmaticComputation arithmatic = new ArithmaticComputation();
+
+        //Test case for addition of two integers
         [Test]
         public void givenTwoIntegers_WhenAdded_ShouldReturnItsResult()
         {
-            ArithmaticComputation arithmatic = new ArithmaticComputation();
             int numberOne = 4;
             int numberTwo = 2;
-            int result = arithmatic.addition(numberOne, numberTwo);
-            Assert.AreEqual(6, result);
+            int addResult = arithmatic.addition(numberOne, numberTwo);
+            Assert.AreEqual(6, addResult);
+        }
+
+        //Test case for subtraction of two integers
+        [Test]
+        public void givenTwoIntegers_WhenSubtracted_ShouldReturnItsResult()
+        {
+            int numberOne = 4;
+            int numberTwo = 2;
+            int subResult = arithmatic.subtraction(numberOne, numberTwo);
+            Assert.AreEqual(2, subResult);
         }
     }
 }
